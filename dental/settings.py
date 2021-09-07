@@ -123,6 +123,13 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+EMAIL_HOST = 'smtp.google.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'doctor@mail.com'
+EMAIL_HOST_PASSWORD = 'drPassword'
+EMAIL_TLS = True
+EMAIL_SSL = False
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
