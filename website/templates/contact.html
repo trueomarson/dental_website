@@ -172,6 +172,14 @@
       </div>
 
       <div class="row">
+
+  {% if message_name %}
+    <center><h3>Thanks {{ message_name }}!</h3>
+        <br/>
+    We received your email and will contact you shortly.</center>
+  {% endif %}
+
+      
         <!-- Contact Information -->
         <div class="col-12 col-md-4">
           <div class="contact-information">
